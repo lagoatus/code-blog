@@ -24,19 +24,19 @@ Projects.prototype.toHtml = function() {
   $newProject.find('.project-body').html(this.body);
   $newProject.find('time').html(this.completionDate);
   //
-  $newProject.find('time[pubdate]').attr('title', this.completionDate)
+  $newProject.find('time[pubdate]').attr('title', this.completionDate);
   //
-  $newProject.find('time').html(parseInt((new Date() - new Date(this.completionDate))/60/60/24/1000) + ' days ago')
+  $newProject.find('time').html(parseInt((new Date() - new Date(this.completionDate))/60/60/24/1000) + ' days ago');
   // The date jquery above I left intact.... not sure how to change in a way to make it original
 
 //$newProject.removeClass('template')
-  return $newProject
-}
+  return $newProject;
+};
 
 myProjects.forEach(function(i) {
   subsections.push(new Projects(i));
-})
+});
 
 subsections.forEach(function(a){
-  $('#projects').append(a.toHtml())
+  $('#projects').append(a.toHtml());
 });
