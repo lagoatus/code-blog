@@ -11,22 +11,22 @@
 
 <body>
     <main>
-        <header>
+        <header class="header">
             <h1 class="mainHeader">
             Aaron Beerman
             </h1>
-            <h3 class="name">Developer Portfolio</h3>
+            <h3 class="name">At-large Web Design</h3>
 
         </header>
         <nav>
             <ul class="navList">
-                <li>Projects</li>
-                <li>About</li>
+                <li class="hometab" data-content="projects"><a href="#">Home</a></li>
+                <li class="tab" data-content="about"><a href="#">About</a></li>
                 <li><a href="https://www.facebook.com/aaron.beerman.9" target="_blank">Facebook</a></li>
                 <li><a href="https://github.com/lagoatus" target="_blank">Github Account</a></li>
-                <li>Contact</li>
 
             </ul>
+            <hr>
         </nav>
         <section id="projects">
             <article class="template">
@@ -40,7 +40,20 @@
                 <section class="project-body"></section>
             </article>
         </section>
-        </div>
+        <hr>
+        <section id="about" class="tab-content">
+        <header>
+          Welcome to my Porfolio!
+        </header>
+        <section>
+          <h1>Some of my interests:</h1>
+          <ul>
+            <li>Coding</li>
+            <li>Sharing what I've learned</li>
+            <li>Hanging with my family</li>
+          </ul>
+        </section>
+      </section>
     </main>
     <footer>
         &copy; 2015 Aaron Beerman | Portfolio
@@ -49,6 +62,7 @@
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <script src="blogobjects.js"></script>
     <script src="blog.js"></script>
+    <script src="view.js"></script>
 
 </body>
 
