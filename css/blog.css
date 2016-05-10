@@ -3,10 +3,15 @@
   font-style: oblique;
   font-size: 16px,
   padding: 20px;
+  color: aliceblue;
+  text-align: center;
+
 }
 
-.mainHeader {
+.mainHeader, header, p, #aboutSection {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: aliceblue;
+  opacity: .9;
 
 }
 
@@ -14,19 +19,18 @@
   display: none;
 }
 
-.navList ul {
-  display: inline-block;
-
+nav {
+  width: 100%;
+  height: 50px;
 }
 
 body {
   padding: 1em;
-  background-color: #FEF6EB;
+  background-color: rgb(30, 33, 39);;
 }
 
 main {
-  margin: auto;;
-  width: 90%;
+  width: 100%;
 }
 
 hr {
@@ -37,14 +41,40 @@ address {
   display: inline-block;
 }
 img {
-  width: 300px;
-  -moz-box-shadow: 5px 5px 5px #777777;
-  -webkit-box-shadow: 5px 5px 5px #777777;
-  box-shadow: 5px 5px 5px #777777;
+  width: 35%;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
 
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin-bottom: -15px;
+    text-align: center;
+    width: 90%;
 
+}
+.navList li {
+
+    display: inline-block;
+    margin: 0 auto;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    width: 10%;
+  }
+
+a {
+  text-decoration: none;
+}
+#aboutSection section {
+  display: block;
+
+
+}
 
 ==========================
 @font-face {
