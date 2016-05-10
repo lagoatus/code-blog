@@ -17,3 +17,11 @@ $(document).ready(function() {
   viewFunctions.handleAboutClick();
   viewFunctions.handleHomeClick();
 });
+
+
+$(function(){ // Code source: https://github.com/mattboldt/typed.js/
+  $('.element').typed({
+    strings: ['Welcome!', 'I am Aaron Beerman', 'Aarman'],
+    typeSpeed: 150
+  });
+});
