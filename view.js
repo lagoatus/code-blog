@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 $(function(){ // Code source: https://github.com/mattboldt/typed.js/
   $('.element').typed({
-    strings: ['Welcome!', 'I am Aaron Beerman', 'Aarman'],
-    typeSpeed: 150
+    strings: ['Welcome!', 'I am Aaron Beerman', 'Aarman '],
+    typeSpeed: 250
   });
 });

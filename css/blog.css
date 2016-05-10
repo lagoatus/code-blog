@@ -128,6 +128,36 @@ img {
         text-align: left;
     }
 }
+
+
+/*CONTENT TAKEN FROM https://github.com/mattboldt/typed.js/
+===============================================================*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s 10;
+    -moz-animation: blink 0.7s 10;
+    animation: blink 0.7s 15;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*CONTENT TAKEN FROM PAIR-PROGRAMMING DOC
+===============================================================*/
+
 @font-face {
     font-family: 'icomoon';
     src: url('fonts/icomoon.eot?wfb79s');
